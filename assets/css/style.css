@@ -31,7 +31,8 @@
 }
 
 .headshot {
-   width: 200px;
+  background-color: #fdf2e9;
+  width: 100%;
 }
 
 .section-about-me {
