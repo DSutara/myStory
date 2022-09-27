@@ -26,13 +26,15 @@
     background-color: #fdf2e9;
 }
 
-.headshot-center {
-
-}
-
-.headshot {
+.headshot-section {
   background-color: #fdf2e9;
   width: 100%;
+}
+
+.headshot-img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
 }
 
 .section-about-me {
