@@ -18,6 +18,22 @@
     color: #555;
   }
 
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf2e9;
+}
+
+.headshot-center {
+
+}
+
+.headshot {
+   width: 200px;
+}
+
 .section-about-me {
     background: #fdf2e9;
     padding: 9.6rem;
@@ -27,7 +43,7 @@
     max-width: 130rem;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 9.6rem;
 }
 
@@ -39,4 +55,5 @@
 
 .milestones li {
     font-size: 2rem;
+    line-height: 1.6;
 }
