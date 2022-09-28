@@ -16,14 +16,36 @@
     line-height: 1;
     font-weight: 400;
     color: #555;
+    background-color: #fdf2e9;
   }
 
 
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+  margin: 50px 400px 50px 0;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     background-color: #fdf2e9;
+    margin: 1.6rem;
 }
 
 .headshot-section {
@@ -34,7 +56,7 @@
 .headshot-img {
   display: block;
   margin: 0 auto;
-  width: 50%;
+  width: 20%;
 }
 
 .section-about-me {
@@ -47,7 +69,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 9.6rem;
+    gap: 8.6rem;
 }
 
 .about-me-description {
