@@ -9,11 +9,6 @@
     /* 10px / 16px = 0.625 = 62.5% */
     /* Percentage of user's browser font-size setting */
     font-size: 62.5%;
-    /* height: 100vh;
-    background-image: url(/assets/img/me.JPG);
-    background-size: cover;                    
-    background-repeat: no-repeat;
-    background-position: center center;  */
   }
   
   body {
@@ -22,7 +17,7 @@
     padding: 0;
     line-height: 1;
     font-weight: 400;
-    /* color: #555; */
+    color: #555;
   }
 
 
@@ -35,18 +30,14 @@
   height: 100px;
   padding: 10px 90px;
   box-sizing: border-box;
-  /* background: rgba(0, 0, 0, 0.6);
-  border-bottom: 1px solid #000; */
 }
 
 .main-nav-list {
   list-style: none;
-  /* float: right; */
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
-  /* border-bottom: 1px solid #fff; */
 } 
 
 .main-nav-link {
@@ -61,7 +52,7 @@
 
 
 .main-nav-link:hover {
-  background: rgba(0, 0, 0, 0.7);
+  /* background: rgba(0, 0, 0, 0.7); */
   border-radius: 6px;
 }
 
@@ -74,6 +65,11 @@
   width: 100%;
 }
 
+.green {
+  color: green;
+}
+
+  /* TYPEWRITER ANIMATION */
 .typewriter-parent {
   position: relative;
 }
