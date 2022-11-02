@@ -83,6 +83,9 @@
 
   /* GRID SETUP */
 .main-projects {
+  position: absolute;
+  left: 604px;
+  bottom: 200px;
   display: grid;
   max-width: 960px;
   margin: 0 auto;
