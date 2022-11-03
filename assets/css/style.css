@@ -77,7 +77,7 @@ h4{
 	letter-spacing: 2px;
 	font-size: 20px;
 }
-.newslatter form{
+/* .newslatter form{
 	width: 380px;
 	max-width: 100%;
 	position: relative;
@@ -102,7 +102,7 @@ h4{
 	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
 	top: 6px;
 	right: 6px; 
-}
+} */
 
 .about{
 	width: 100%;
@@ -160,7 +160,7 @@ button:hover{
 	cursor: pointer;
 }
 
-.service{
+.projects{
 	background: #101010;
 	width: 100%;
 	padding: 100px 0px;
