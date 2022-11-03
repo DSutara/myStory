@@ -52,15 +52,24 @@
     background: rgba(0, 0, 0, 0.7);
     border-radius: 6px;
     }
+
+    .main-paragraph {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/me.JPG);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      width: 100vh;
+    }
   
-  .background-full {
+  /* .background-full {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/me.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
-    width: 100%;
-  }
+    width: 100vh%;
+  } */
 
   /* .about-me-section {
     position: absolute;
