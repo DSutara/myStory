@@ -55,6 +55,7 @@ nav ul li a:hover {
 }
 
 .btn {
+  margin-left: 10px;
   background-color: #f9004d;
   color: white;
   text-decoration: none;
@@ -67,7 +68,6 @@ nav ul li a:hover {
 
 .btn:hover {
   background-color: transparent;
-  transform: scale(1.2);
 }
 
 .content {
